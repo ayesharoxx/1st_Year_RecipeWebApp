@@ -1,0 +1,224 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+p.SubTitle{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.top {
+  width: 270px;
+  height: 90px;
+  object-fit: cover;
+
+}
+
+.sample {
+  width: 500px;
+  height: 380px;
+}
+
+.OtherInformation {
+  background-color: orange;
+  padding: 5%;
+  font-size: 150%;
+
+}
+
+.Description {
+  color: white;
+  font-size: 30px;
+}
+
+.RecipeName {
+  color: white;
+  font-size: 100px;
+  text-decoration: underline 6px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.RecipeImage{
+  border: 1px solid #000;
+  width: 75%;
+  height: auto;
+  margin-left: 12.5%;
+}
+
+.Container {
+  width: 62%;
+  padding-bottom:1cm;
+  background-color: orange;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+
+
+
+.bottomContactFooter{
+  width: 100%;
+  height:115px;
+  border:0px solid #000;
+  background-color: #ed7d31;
+}
+
+
+
+
+.mails{
+  display:flex;
+  flex-direction: row;
+ width:100%;
+}
+
+
+
+
+
+
+.topRecipes{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.mails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.menuButtonBar{
+  width:100%;
+  height:40px;
+  border:0px solid #000;
+  background-color: #ed7d31;
+  display: flex;
+  align-items: center;
+}
+
+.loginRegisterButton{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.loginRegister{
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.inputStyle{
+ border: 0px;
+ padding: 4px 8px; 
+ border-radius: 4px;
+}
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+}
+
+.topNavHeader{
+  background-color: #ed7d31;
+  display: flex;
+  justify-content: space-between;
+}
+
+.indentingLeft{
+    text-indent: 7%;
+}
+
+.topnav {
+  display: inline-block;
+}
+.button1{
+    float: right;
+    padding: 7px;
+    margin:  5px;
+}
+.alignVertical{
+    margin: 0;
+    position: fixed;
+    top: 77px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.alignHorizontal{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.search1{
+    padding-left: 20%;
+}
+.menubutton{
+    background-color: #ed7d31;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 98%;
+}
+.container img {
+  width: 97%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+
+
+.recipes{
+    float: left;
+    width:  200px;
+    height: 200px;
+    border:1px solid #000;
+    padding: 50px;
+    align-content: center;
+    object-fit: cover;
+  }
+.space1{
+  display: flex;
+}

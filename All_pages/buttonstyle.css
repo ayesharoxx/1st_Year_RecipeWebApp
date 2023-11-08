@@ -1,0 +1,200 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+
+.eachImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipes{
+    float: left;
+    width:  200px;
+    height: 200px;
+    border:1px solid #000;
+    padding: 10px;
+    align-content: center;
+    object-fit: cover;
+
+    text-align: center;
+  }
+
+.topRecipes{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.recipeName{
+    color: black;
+    font-size: 125%;
+}
+
+.bottomContactFooter{
+  width:100%;
+  height:100%;
+  border:0px solid #000;
+  background-color: #ed7d31;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-size: 150%;
+  border-top: 2px solid #000;
+}
+
+.mails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuButtonBar{
+  width:100%;
+  height:40px;
+  border:0px solid #000;
+  /*background-color: #c8580c;*/
+  background-color: #ed7d31;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+
+.loginRegisterButton{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.loginRegister{
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.inputStyle{
+ border: 0px;
+ padding: 4px 8px; 
+ border-radius: 4px;
+ margin: 5px;
+}
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+}
+
+.topNavHeader{
+  background-color: #ed7d31;
+  display: flex;
+  justify-content: space-between;
+}
+
+.indentingLeft{
+    text-indent: 7%;
+}
+
+.topnav {
+  display: inline-block;
+}
+.button1{
+    float: right;
+    padding: 7px;
+    margin:  5px;
+}
+.alignVertical{
+    margin: 0;
+    position: fixed;
+    top: 77px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.alignHorizontal{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.search1{
+    padding-left: 20%;
+}
+.menubutton{
+    background-color: #ed7d31;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 0;
+}
+.wmap{
+   display: inline-block;
+  margin: 2%;
+  width: 100%;
+  align-content: left;
+  border:1px solid #000;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 98%;
+}
+.container img {
+  width: 97%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.container .NAmerica{
+    top: 10%;
+  left: 5%;
+}
+.container .SAmerica{
+    top: 70%;
+  left: 15%;
+}
+.container .Asia{
+    top: 20%;
+  left: 90%;
+}
+.container .Europe{
+    top: 35%;
+  left: 38%;
+}
+.container .Africa{
+    top: 60%;
+  left: 43%;
+}
+.container .Australia{
+    top: 75%;
+  left: 75%;
+}
+
+
+
+.space1{
+  display: flex;
+}
+

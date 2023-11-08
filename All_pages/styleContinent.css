@@ -1,0 +1,127 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.topNavHeader{
+  background-color: #ed7d31;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginRegisterButton{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.loginRegister{
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menuButtonBar{
+  width:100%;
+  height:40px;
+  border:0px solid #000;
+  /*background-color: #c8580c;*/
+  background-color: #ed7d31;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+
+.menubutton{
+    background-color: #ed7d31;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+
+.container {
+  width: 96%;
+  margin: auto;
+  outline: black;
+  outline-style: solid;
+  background-color: orange;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.box-1{
+
+}
+
+.Breakfast {
+  color: white;
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.allBreakfast {
+  color: black;
+  font-size: 40px;
+  font-style: bold;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: white;
+  outline: black;
+  outline-style: solid;
+  padding: 24px;
+}
+
+.recipeList{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  margin: 1%;
+  padding: 1%;
+  background-color: lightgray;
+}
+
+.eachImage{
+  width: 30%;
+  height: auto;
+  border: 1px solid #000;
+}
+
+.recipeData{
+  margin-left: 1%;
+  color: black;
+  width: 65%;
+}
+
+.recipeNameTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bottomContactFooter{
+  width:100%;
+  height:100%;
+  border:0px solid #000;
+  background-color: #ed7d31;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-size: 150%;
+  border-top: 2px solid #000;
+}
+
+.mails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

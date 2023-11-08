@@ -1,0 +1,254 @@
+body{
+  /*width: 100%;
+  height: 100%;
+  padding: 0px;*/
+  margin: 0px;
+  font-size: 150%;
+}
+
+.loginRegisterButton{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.loginRegister{
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*body{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  min-height: 100vh;
+  background: #5256ad;
+}*/
+.drag-area{
+  border: 2px dashed #fff;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ed7d31;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+input[type=”text”]{
+  border-radius: 50px;
+}
+.columns { 
+
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 5px solid;
+  border-radius: 5px;
+  border-top: 10%;
+  background-color: antiquewhite;
+  border-color: #ed7d31;
+}
+.column1 {
+  width:100%;
+
+}
+
+@media (min-width: 48em) {
+  .column1 {
+    
+    width: 40%;
+    padding-left: 25px;
+    float:left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 100vh;
+    /*background: #5256ad*/;
+  }
+
+  .column2 {
+    /*border-left: 1px solid;
+*/  width: 60%;
+    float:right;
+  }
+  .columns {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.topNavHeader{
+  padding-bottom: 2%;
+  background-clip: content-box;
+  background-color: #ed7d31;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/*.backgroundUpload {*/
+  /*width: 100%;
+  height: 100%;*/
+/*  background-color: orange;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;*/
+/*}*/
+
+.UploadRecipe {
+  color: white;
+  font-size: 80px;
+  margin: 0px;
+}
+
+.uploadtext{
+  color: black;
+  font-size: 100%;
+  margin: 0px;
+  padding-bottom: 2%;
+  font-family: "serif";
+}
+
+.submitBox{
+  /*text-align: center;*/
+  font-size: 100%;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+
+.tbCSS{
+  width: 25%;
+  font-size: 100%;
+  margin-top: 0%;
+  margin-left: 45.5%;
+  margin-right: 50.5%;
+  border-radius: 5px;
+  background-color: white;
+  /*text-align: center;*/
+}
+
+.tbLongCSS{
+  width: 35%;
+  font-size: 150%;
+  margin-top: 0%;
+  margin-left: 45.5%;
+  margin-right: 50.5%;
+}
+
+.labelCSS{
+  font-size: 125%;
+  text-align: left ;
+  margin-left: 10.5%;
+
+}
+
+.labelLongCSS{
+  font-size: 125%;
+  text-align: left ;
+  margin-left: 10.5%;
+}
+
+.imageUploadCSS{
+  font-size: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.horizontalInformation{
+  display: flex;
+
+  /*font-size: 150%;*/
+  margin-left: 40%;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+.verticalInformation{
+  margin-top: 0%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomContactFooter{
+  background-clip: content-box;
+  width:100%;
+  height:100%;
+  border:0px solid #000;
+  background-color: #ed7d31;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+.mails{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.uploadedButton{
+  width: 75%;
+  height: 300px;
+  justify-content: center;
+  background: orange;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.uploadPage{ 
+  text-align: center;
+}
